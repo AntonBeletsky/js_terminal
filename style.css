@@ -1,0 +1,36 @@
+* {
+  line-height: 5px;
+}
+
+body {
+  padding: 100px 100px;
+  background-color: #1e3b1a;
+}
+
+div#root {
+  background-color: black;
+  color: lime;
+  height: 600px;
+  border: thick double #61d152;
+  padding: 20px 40px;
+}
+
+.cursor {
+  margin-left: 5px;
+}
+
+.current-line {
+  display: inline;
+}
+
+.current-line span {
+  display: inline;
+}
+
+.current-line span * {
+  display: inline;
+}
+
+.output {
+  display: inline;
+}
